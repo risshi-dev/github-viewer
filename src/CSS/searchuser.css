@@ -1,0 +1,64 @@
+.search{
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 1px 0px #621a8b;
+    padding: 5px;
+    width: 40vw;
+    margin-right: 15px;
+}
+.search:focus
+{
+    outline: none;
+    border:none
+}
+.searchbtn{
+    border:none;
+    width: 60px;
+    padding:10px;
+    color: #fff;
+    box-shadow: none;
+}
+.searchbtn:focus{
+    outline: none;
+}
+
+.searchbtn:hover{
+    cursor: pointer;
+}
+
+#image{
+    width: 200px;
+}
+
+.usercontainer{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 5vh;
+}
+
+.detailsContainer{
+    color: #24292e;
+    margin-top:10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.publicInfo{
+    text-align: left;
+}
+.publicInfo>div{
+    text-align: left;
+}
+.gitInfo{
+    text-align: left;
+}
+.gitInfo>div{
+    margin:3px;
+}
+
+#namerepo{
+    text-align: left;
+    margin: 10px;
+    font-weight: 300;
+    font-size: 24px;
+}
