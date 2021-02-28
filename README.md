@@ -1,5 +1,7 @@
 # Running Github Find on your device
-Clone this project and download the file, then extract the folder and then open in VS Code and then run `npm install` to install all modules and dependencies used to create this react-app.
+1. Clone the project
+2. Run npm install
+3. Run npm start to run the application
 
 ## Extra-feautres
 
